@@ -1,4 +1,4 @@
-FROM mariadb:10.1
+FROM mariadb:latest
 MAINTAINER toughiq@gmail.com
 
 RUN apt-get update && apt-get upgrade -y \
